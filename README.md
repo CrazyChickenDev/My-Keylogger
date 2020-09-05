@@ -12,6 +12,6 @@ Open the project on your terminal and install the required library Pynput
 
 ### Use the command below:
 
-```
+```shell
 pip install pynput
 ```
