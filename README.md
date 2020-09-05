@@ -10,7 +10,8 @@ Clone this repository to your local storage
 
 Open the project on your terminal and install the required library Pynput
 
-Use the command below:
-``
+### Use the command below:
+
+```
 pip install pynput
-``
+```
