@@ -24,4 +24,4 @@ python keylogger.py
 Press your 'Escape' key (Esc) 3 times
 ```
 
-- Recorded keystrokes are stored in the 'keyrecord.txt' file 
+- Recorded keystrokes are stored in the 'log.txt' file 
