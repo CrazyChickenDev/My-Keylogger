@@ -41,7 +41,7 @@ def on_release(key):
     global exit
     if key == Key.esc:
         exit += 1
-        if exit == 5 :
+        if exit == 3 :
             return False
 
 exit = 0

@@ -11,10 +11,15 @@ Here's a simply built keylogger created using python on a linux distro(Parrot OS
 - Open the project on your terminal and install the required library **Pynput**
 
 ### Use the command below:
+- To install the required library
 ```shell
 pip install pynput
 ```
 - To run the program
 ```shell
 python keylogger.py
+```
+- To quit the program
+```
+Press your ``Escape`` key (Esc) 5 times
 ```
