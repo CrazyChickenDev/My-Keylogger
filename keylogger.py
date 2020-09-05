@@ -10,3 +10,7 @@ keys = []
 
 def on_press(key):
     global keys, count
+
+keys.append(key)
+    count+=1
+    print("{0} pressed".format(key))
