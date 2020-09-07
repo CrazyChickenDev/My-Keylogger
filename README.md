@@ -1,4 +1,5 @@
-# My Keylogger Project
+<p align="left"> <img src="https://github.com/CrazyChickenDev/My-Kelogger/keylogger.png"></p>
+# My Keylogger:closed_lock_with_key:
 
 <p align="left"> <img src="https://img.shields.io/github/license/CrazyChickenDev/My-Keylogger-Project" alt="crazychickendev" /> 
 <img src="https://img.shields.io/pypi/pyversions/pynput" alt="crazychickendev" /></p>
