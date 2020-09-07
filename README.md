@@ -12,16 +12,16 @@ Here's a simply built keylogger created using python on a linux distro(Parrot OS
 
 ### Use the commands below:
 - To install the required library
-```shell
-pip install pynput
-```
+
+```$ pip install pynput```
+
 - To run the program
-```shell
-python keylogger.py
-```
+
+```$ python keylogger.py```
+
 - To quit the program
 ```
 Press your 'Escape' key (Esc) 3 times
 ```
 
-- Recorded keystrokes are stored in the 'log.txt' file 
+- Recorded key actions are stored in the 'log.txt' file 
